@@ -1,3 +1,7 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'pools/static.css' %}">
+
 {% if questions_list %}
     <ul>
     {% for question in questions_list %}
