@@ -1,4 +1,3 @@
-from django.contrib import admin
 from django.urls import path
 from pools.views import IndexView, VoteView, DetailView, ResultsView
 
